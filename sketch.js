@@ -37,7 +37,7 @@ function draw() {
 
     if (surfaceBlue.isTouching(ball)&&ball.bounceOff(surfaceBlue)){
         ball.shapeColor = "blue";
-        music.play();
+        //music.play();
     }
 
     if (surfaceRed.isTouching(ball)&&ball.bounceOff(surfaceRed)){
