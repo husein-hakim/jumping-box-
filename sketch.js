@@ -42,7 +42,7 @@ function draw() {
 
     if (surfaceRed.isTouching(ball)&&ball.bounceOff(surfaceRed)){
         ball.shapeColor = "red";
-        music.play();
+        //music.play();
     }
 
     if (surfaceGreen.isTouching(ball)&&ball.bounceOff(surfaceGreen)){
@@ -52,7 +52,7 @@ function draw() {
 
     if (surfaceYellow.isTouching(ball)&&ball.bounceOff(surfaceYellow)){
         ball.shapeColor = "yellow";
-        music.play();
+        //music.play();
     }
     
     drawSprites();
